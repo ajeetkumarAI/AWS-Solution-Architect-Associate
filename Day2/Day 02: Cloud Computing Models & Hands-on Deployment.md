@@ -82,12 +82,13 @@ Service models define **how much control you have** versus **how much the provid
 
 ### 🍕 Real-World Analogy: Pizza as a Service
 
-| **Task / Component** | **Traditional On-Premises** | **IaaS** | **PaaS** | **SaaS** | 
-| **Dining Table & Drinks** | You Manage | You Manage | You Manage | Provider Manages | 
-| **Oven & Gas** | You Manage | You Manage | Provider Manages | Provider Manages | 
-| **Pizza Dough & Toppings** | You Manage | You Manage | Provider Manages | Provider Manages | 
-| **Kitchen Infrastructure** | You Manage | Provider Manages | Provider Manages | Provider Manages | 
-| **Analogy Equivalent** | Made at home from scratch | Rent a kitchen setup | Pizza delivery to door | Eat at a Restaurant | 
+| Task / Component | Traditional On-Premises | IaaS | PaaS | SaaS |
+| :--- | :--- | :--- | :--- | :--- |
+| **Dining Table & Drinks** | You Manage | You Manage | You Manage | Provider Manages |
+| **Oven & Gas** | You Manage | You Manage | Provider Manages | Provider Manages |
+| **Pizza Dough & Toppings** | You Manage | You Manage | Provider Manages | Provider Manages |
+| **Kitchen Infrastructure** | You Manage | Provider Manages | Provider Manages | Provider Manages |
+| **Analogy Equivalent** | Made at home from scratch | Rent a kitchen setup | Pizza delivery to door | Eat at a Restaurant |
 
 ## 3. Cloud Deployment Models
 
