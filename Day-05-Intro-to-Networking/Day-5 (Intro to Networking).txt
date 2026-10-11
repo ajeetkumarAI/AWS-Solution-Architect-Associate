@@ -1,0 +1,87 @@
+Today's agenda
+
+-> What is Network & Networking
+-> Network devices
+-> IP Addressing
+--------------------------------------------------------------------
+AWS:
+	1. Compute
+	2. Networking
+	3. Identity
+	4. Storage & Database
+	5. Others
+--------------------------------------------------------------------
+Network: Group of computers connected together using media (wired or wireless).
+Networking: Group of computers communicating with eachother via network.
+--------------------------------------------------------------------
+Types of Network
+	1. LAN - Local Area Network (Group of PC's connected within a limited range
+		  of area)
+		Types:  a. CAN - Campus Area Network
+			b. PAN - Personal Area Network
+	2. MAN - Metropolitan Area Network (Group of LAN's of same organization
+		  connected together with a city limit)
+	3. WAN - Wide Area Network (Group of LAN's connected Globally)
+			(Internet is an application that works in WAN)
+---------------------------------------------------------------------
+A network is created using Network devices like
+	1. NIC (Network Interface Card)
+	2. HUB
+	3. Switch
+	4. Router
+	5. Wifi-Router
+	6. Access point
+	7. Firewall
+	8. Others
+---------------------------------------------------------------------
+IP address: It is 32bit or 128bit logical address assigned to pc or a device to
+identify in the network.
+
+Internet: It is a service that connects multiple servers and networks across WAN
+Protocol: Set of rules for a good communication
+
+IP: It is the basic communication service that starts with port number "0"
+
+Note: In networking, every service has a port number. Port number is used to 
+recognise the service open for communication.
+----------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
