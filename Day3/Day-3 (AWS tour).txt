@@ -1,0 +1,18 @@
+Today's agenda
+
+-> Aws tour
+---------------------------------------------------------------------
+URL: www.aws.amazon.com
+
+-> Products
+	Compute
+	Networking
+	Identity
+	Storage
+	Database
+	Monitoring
+-> Create AWS account
+	1. an email address & valid mobile number
+	2. Govt ID proof
+	3. Payment method (cards, UPI)
+--------------------------------------------------------------------
