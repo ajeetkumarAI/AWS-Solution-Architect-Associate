@@ -1,0 +1,27 @@
+Today's agenda
+
+-> Understanding about virtualization
+-> Creating Aws Account
+----------------------------------------------------------------
+Virtualization
+-> One sinle machine acting as multiple virtual machines.
+
+VMWare: VSphere, VCenter, EsXi, Workstation
+Microsoft: Hyper-V (Hypervisor)
+Aws: Xen Hypervisor and Nitro Hypervisor
+----------------------------------------------------------------
+Creating Aws Account:
+1. email address
+2. mobile number
+3. Identity document
+4. payment mode
+
+Go to www.aws.amazon.com
+Click on create aws account
+Follow steps
+
+
+
+
+
+
