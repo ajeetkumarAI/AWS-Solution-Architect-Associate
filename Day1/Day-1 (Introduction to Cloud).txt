@@ -1,0 +1,33 @@
+Today's agenda
+
+->Introduction to cloud computing
+->What is AWS?
+-------------------------------------------------------------------
+Imagine you want to start an online shopping website like Amazon. What do you need 
+to make it work???
+-> Server, Internet, Website, Database, Storage, Networking
+Traditional IT Infrastructure costs huge investments
+Solution for this is cloud computing
+-------------------------------------------------------------------
+What is cloud computing?
+-> Accessing Server infra of some X company over the internet to host our
+application is called as Cloud Computing.
+->Cloud computing is the delivery of computing resources such as servers, storage,
+databases, networking and software over the internet, usually on a pay-as-you-go
+basis.
+--------------------------------------------------------------------
+What is AWS?
+-> Amazon Web Services
+	It is a cloud computing platform that provides services such as computing,
+storage, networking, databases, security and analytics.
+	AWS allows organizations to build and operate applications without
+purchasing and maintaining all the underlying phical infrastructure themselves.
+--------------------------------------------------------------------
+
+
+
+
+
+
+
+
