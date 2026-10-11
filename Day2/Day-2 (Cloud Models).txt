@@ -1,0 +1,36 @@
+Today's agenda
+
+-> Understanding about cloud models
+-> Deploy a live web server on AWS cloud
+-------------------------------------------------------------------
+Cloud Computing Models:
+1. Service Model
+	IaaS
+	PaaS
+	SaaS
+2. Deployment Model
+	Public Cloud
+	Private Cloud
+	Hybrid Cloud
+-------------------------------------------------------------------
+IaaS (Infrastructure as a Service): We get virtual infrastructure and manage the
+OS & Applications
+Ex: Renting and empty house.
+PaaS (Platform as a Service): The cloud provider manages the infrastructure and 
+platform, allowing developers to focus on application development.
+SaaS (Software as a Service): We directly use ready-made software over the internet
+--------------------------------------------------------------------
+Public Cloud: Multiple customers can access over the internet
+Private Cloud: Cloud infrastructure dedicated to one organization
+Hybrid Cloud: Combination of private and public cloud
+--------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
