@@ -1,0 +1,81 @@
+Today's agenda
+
+-> Linux Commands
+-> Web Server setup on Windows and Linux instances
+----------------------------------------------------------------------
+Linux Commands continued
+
+5. Directory commands
+*to create a directory
+#mkdir (make directory) <name>
+*to create hidden directory
+#mkdir <.name>
+*to rename a directory/Relocate a directory
+#mv <old name> <new name>
+*to copy a directory into another
+#cp -r <name> <name>
+*to delete a directory
+#rmdir <name>  &  #rm -rf <name> (force delete)
+*to navigate between directories cd <directory-name>&
+(cd ..-previous dir)
+-----------------------------------------------------------------------
+6. Files commands
+*to create a file
+a. cat  (cat >filename)
+b. touch (touch filename)-creates empty file
+c. vi/vim (vi filename, press 'i' and type content,
+ press'esc' and ':wq")
+(:wq-write and quit, :q!- force quit)
+d. nano (nano filename)(ctrl+X & press'y' & press 'enter')
+*to edit/view a file (editors)
+a. cat (edit: cat >>filename)(view: cat filename)
+(replace: cat >filename)
+b. vi/vim
+c. nano
+*to delete a file
+#rm <file-name> & y (provide confirmation)
+---------------------------------------------------------------------
+Installing and Configuring Web Service on Windows Instance
+-> Enable http port for ec2 instance
+-> Access Windows ec2 instance using Remote desktop connection app
+	-> Go to start and click on Server Manager
+	-> Go to Manage-> Add roles & features -> Next-> Next-> Next
+	-> Select Web server IIS-> click add features
+	-> Next-> Next-> Next-> Next-> Install-> Close
+	-> Create an html file with a name "index.html" in wwwroot folder
+	-> Open c drive-> open inetpub-> open wwwroot-> delete existing files
+	-> Go to browser and type http://public-ip
+---------------------------------------------------------------------
+Installing and Configuring Web Service on Ubuntu Linux Instance
+-> Enable http port for ec2 instance
+-> Access ubuntu ec2 instance using MobaXterm
+	$sudo -i
+	#apt update -y
+	#apt intall apache2 -y
+	#systemctl start apache2
+	#systemctl enable apache2
+	#systemctl status apache2
+	#cd /var/www/html/
+	-> delete index.html file #rm -rf index.html
+	#nano index.html    (add the content and save)
+	Go to web browser and type http://public-ip
+----------------------------------------------------------------------
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
