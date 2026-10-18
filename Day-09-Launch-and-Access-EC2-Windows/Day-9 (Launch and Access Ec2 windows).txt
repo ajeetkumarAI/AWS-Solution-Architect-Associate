@@ -1,0 +1,59 @@
+Today's agenda
+
+-> Launch and Access Ec2 Windows Instances
+--------------------------------------------------------------------
+Launch Ec2 instance:
+OS/AMI : Windows
+User: Administrator
+Channel : RDP (Remote Desktop Protocol)
+Port: RDP: 3389
+Hardware/ Instance type: t2/t3.micro
+-----------------------------------------------------------
+Login to AWS console
+-> Go to search and type Ec2
+-> Select Ec2
+-> Select Instances  ##In EC2 console
+-> Select Launch Instance
+	-> Provide a Name  (My-Windows-Server)
+	-> Select AMI (select Windows and its version from the dropdown)
+	-> Select Instance Type (select only t2/t3.micro)
+	-> Create Keypair (create new keypair->provide name->select .pem->create)
+	-> Don't change anything in Network Settings
+	-> In security group-> check for rdp allow
+	-> In Storage don't change anything
+	-> Check the summary and click on Launch Instance
+------------------------------------------------------------
+Access Windows Ec2 Instance
+	-> Open Instance ID
+	-> Click on Connect
+	-> Use Windows Remote Desktop Connection application or 
+		Third party application (Ex: MobaXterm)
+	-> Note: Windows supports only one single remote connection at a time
+	-> Open Remote Desktop connection app and provide public-ip or public-dns
+	-> Provide the username as "administrator"
+	-> To generate password go to instance-id-> click on connect-> select RDP
+		-> select get password-> upload .pem file-> decrypt-> note password
+	-> provide the password -> click connect
+	-> Open MobaXterm ->Session-> RDP-> Provide public-ip-> Username-> Password
+-------------------------------------------------------------
+Note: Terminate the instance after practice
+-------------------------------------------------------------
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

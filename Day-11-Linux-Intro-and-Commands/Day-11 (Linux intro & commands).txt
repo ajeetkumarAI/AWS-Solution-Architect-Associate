@@ -1,0 +1,52 @@
+Today's agenda
+
+-> Linux introduction
+-> Basic Linux navigation commands
+-------------------------------------------------------------------
+Basic Linux Navigation Commands
+
+1. Users Switch
+->Default - root
+*OS:
+->Amazon Linux - ec2-user
+->Ubuntu - ubuntu
+->RheL/Fedora/Debian/Suse - root/ec2-user
+*User switch commands
+->Representation:
+	1. # - root user
+	2. $ - standard user
+-> $sudo su (sudo su -) (sudo -i)
+-> #sudo su <username>
+-> Ctrl+d (previous-user/logout/exit)
+
+
+		ubuntu@ip-172-31-11-229:/root$
+			
+			ubuntu - username
+			ip address - device identity
+			/ - Default location or location
+			root - directory (folder)
+-----------------------------------------------------------------------
+2. Linux Directories
+->Default directory (/)
+->Home directory (~)(symbol: Tilde)
+->Root directory (~)(root user)
+*to check present directory - pwd (present working directory)
+*to go to root user home directory -> $sudo su -
+*to go to default directory - #cd /  (change directory)
+*to open a directory or come out from a directory- cd <name>/cd ..
+------------------------------------------------------------------------
+3. List commands
+->to see the contents inside directory - #ls (list)
+->to see all contents inside directory - #ls -a (list -all)
+->to see contents in list view #ll (longlist) #ll -a/#ls -la (all)
+------------------------------------------------------------------------
+4. Clearscreen - #clear or ctrl+l & #history
+------------------------------------------------------------------------
+
+
+
+
+
+
+

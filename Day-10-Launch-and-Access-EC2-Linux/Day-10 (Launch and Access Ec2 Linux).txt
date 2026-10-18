@@ -1,0 +1,74 @@
+Today's agenda
+
+-> Launch and Access Ec2 Linux instances
+-> Download PuTTy and MobaXterm for Linux
+-----------------------------------------------------------------------
+Launch Ec2 instance:
+OS/AMI : Amazon Linux / Ubuntu Linux
+User: ec2-user / ubuntu		##default user is root
+Channel : SSH (Secure Shell)
+Port: RDP: 22
+Hardware/ Instance type: t2/t3.micro
+-----------------------------------------------------------------------
+Access Linux instance
+	1. Ec2 Instance Connect
+	2. Windows command prompt or powershell
+	3. Linux CLI terminal
+	4. Mobaxterm (download free version- Home edition)
+	5. PuTTy (download putty.exe & puttygen.exe)
+Note: Linux machines can be accessed by multiple users at a time
+-----------------------------------------------------------------------
+-> Access using Ec2 Instance Connect
+	-> Select the instance and click on connect.
+	-> In web browser, we can see ec2 instance connect.
+	-> check for public address and username then click on connect
+-----------------------------------------------------------------------
+-> Access using Command prompt/Powershell
+	-> Select the instance and click on connect.
+	-> In SSH client, check the instructions.
+	-> Open Commandprompt, in the given path check for .pem file.
+	-> If file is not available then copy and paste the file in the location.
+	-> Now, check fir the .pem file again. (use dir command)
+	-> Type ssh -i <keypair-filename> <username>@<public-ip>
+	-> Provide Yes as confirmation and enter.
+-----------------------------------------------------------------------
+-> Access using Ubuntu (Linux Terminal)
+	-> Open Linux terminal
+	-> Check for .pem file. Copy and paster the file in the Linux machine.
+	-> Use chmod 400 <keypair-filename>
+	-> ssh -i <keypair-filename> <username>@<public-ip>
+	-> type yes and enter.
+-----------------------------------------------------------------------
+-> Access using MobaXterm
+	-> Open Mobaxterm -> select session-> select SSH
+	-> Provide public-ip -> Username
+	-> Click Advanced SSH settings and click on use private key
+	-> Click on browse and select the pem file-> click open
+	-> CLick OK
+-----------------------------------------------------------------------
+-> Access using PuTTy
+	-> Open puttygen.exe -> CLick on Load-> Select All files (in the right)
+	-> select the .pem file-> open
+	-> click ok-> save as private key ->provide a name -> save.
+	
+	-> Open PuTTy.exe
+	-> Provide Public-IP (Check for SSH and Port 22 enabled)
+	-> Under Conection (to the left) expand SSH-> expand AUTH
+	-> Select Credentials ->Click on Browse -> Select .ppk file-> Click open.
+	-> Select Open -> Select Accept-> Provide the username.
+------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
