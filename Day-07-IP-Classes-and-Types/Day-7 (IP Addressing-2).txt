@@ -1,0 +1,96 @@
+Today's agenda
+
+-> Classes of IP Address
+-> Types of IP Address
+-> Special IP Address
+-> How to assign IP address
+-------------------------------------------------------------------
+Classes of IP Address
+Class A:
+	Range: (1-126)      ##First portion of IP address
+	Representation:	|N|H|H|H|
+	No.of Networks: 126
+	No.of Hosts in a NW: 1,67,77,214
+	Subnet Mask: 255.0.0.0
+	Usage: Large organisations, Govt sectors
+Class B:
+	Range: (128-191)
+	Representation: |N|N|H|H|
+	Subnet Mask: 255.255.0.0
+	No.of Networks: 16384
+	No.of Hosts in a NW: 65534
+	Usage: MNC's
+Class C: 
+	Range: (192-223)
+	Representation: |N|N|N|H|
+	Subnet Mask: 255.255.255.0
+	No.of Networks: 20,97,152
+	No.of Hosts in a NW: 254
+	Usage: Small companies and household
+Class D:
+	Range: (224-239)
+	Representation: No representation
+	No Subnet Mask
+	Usage: Multicasting purpose
+	Example: 224.0.0.1
+Class E: 
+	Range: (240-255)
+	Usage: Research and Development purpose
+----------------------------------------------------------------------
+Types of IP Address
+	1. Public address
+		Paid IP address (differs in bandwidth/speed)
+	2. Private address
+		Free IP address that can be used only within the organisation
+
+	Public address
+		Range (1-223) excluding 127
+IETF and IANA has to allocate some networks to Private
+	Private address
+		Range:	Class A: 10.0.0.0 to 10.255.255.255
+			Class B: 172.16.0.0 to 172.31.255.255
+			Class C: 192.168.0.0 to 192.168.255.255
+----------------------------------------------------------------------
+Special Addresses:
+1. Loopback address: Range (127.x.x.x)
+	This address is used to send data to itself and also to verify the working
+status of the NIC.
+2. Link-Local or APIPA (Automatic Private IP Address) :
+	Range: (169.254.0.0 to 169.254.255.255)
+	Whenever an NIC fails to find a DHCP server in the network then it will
+generate an automatic IP address indicating an error
+-----------------------------------------------------------------------
+Assigning IP Address:
+	1. Static: Manually assigned by a user/admin
+	2. Dynamic: Automatically assigned by DHCP Server
+DHCP: Dynamic Host COnfiguration Protocol: It assigns IP address automatically to
+the devices in the network.
+-----------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
